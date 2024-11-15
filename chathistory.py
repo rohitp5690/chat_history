@@ -12,8 +12,9 @@ file_to_read=st.file_uploader('UPLOAD THE PDF FILE: ',type='pdf')
 input_question_ask=st.text_input("Enter your Query: ")
 
 #now load all variables
+os.environ['LANGCHAIN_API_KEY']='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'
 os.environ['LANGCHAIN_TRACING_V2']='true'
-os.environ['HF_TOKEN']=os.getenv('HF_TOKEN')
+os.environ['HF_TOKEN']='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'
 os.environ['LANGCHAIN_PROJECT']='QNA CHATBOT WITH HISTORY'
 
 
